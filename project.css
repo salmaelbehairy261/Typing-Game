@@ -1,0 +1,81 @@
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.navbar-brand {
+  font-size: 30PX;
+  letter-spacing: 4px;
+  margin-right: 70PX;
+  font-family: "Audiowide", sans-serif;
+}
+.nav-item {
+  margin-left: 30px;
+  font-family: "Audiowide", sans-serif;
+
+}
+
+select {
+  width: 110px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+ul {
+  margin-left: 110px;
+}
+#intro {
+  background-image: url(game.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mainpart {
+  margin: 0 auto;
+  background-color: rgba(255, 102, 186, 0.638);
+  width: 800px;
+  height: 300px;
+  position: relative;
+  top: 35%;
+  z-index: 1;
+  border-radius: 10px;
+  padding: 15px;
+  color: #fff;
+}
+.details{
+  height: 50px;
+  width: 100%;
+}
+td{
+  width: 280px;
+  text-align: center;
+}
+.btn{
+  border-radius: 40px;
+  background-color: #1a6db1;
+  color: #fff;
+  width: 200px;
+}
+.con{
+  text-align: center;
+}
