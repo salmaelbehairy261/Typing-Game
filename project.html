@@ -32,7 +32,7 @@
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
-                <select class="selectpicker" >
+                <select class="selectpicker" id="choose" onchange="selectLevel()" >
                     <option value="1">Easy</option>
                     <option value="2">Medium</option>
                     <option value="3">Hard</option>
@@ -46,24 +46,24 @@
                 <table class="details mb-5">
                     <tr>
                         <td>
-                            <h3>00:00</h3>
+                            <h3 >00:<span id="sec">20</span></h3>
                         </td>
                         <td>
-                            <h3>Level: <span>Easy</span></h3>
+                            <h3>Level: <span id="level">Easy</span></h3>
                         </td>
                         <td>
-                            <h3>Score: <span>0</span></h3>
+                            <h3>Score: <span id="score">0</span></h3>
                         </td>
                     </tr>
                 </table>
                 <div class="con">
                     <div>
-                        <h2 class="mb-4">
+                        <h2 class="mb-4" id="starting">
                             Start Playing and Get the best score!
                         </h2>
                     </div>
-                    <div>
-                        <button type="button" class="btn btn-lg ">Start now</button>
+                    <div id ="Btnn">
+                        <button type="button" class="btn btn-lg " onclick="startGame()" >Start now</button>
                     </div>
                 </div>
             </div>
