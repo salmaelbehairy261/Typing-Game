@@ -1,28 +1,22 @@
-/* Color of the links BEFORE scroll */
-.navbar-scroll .nav-link,
-.navbar-scroll .navbar-toggler-icon,
-.navbar-scroll .navbar-brand {
-  color: #fff;
-}
+/* .dropnav {
+  color: rgb(238, 239, 240);
 
-/* Color of the links AFTER scroll */
-.navbar-scrolled .nav-link,
-.navbar-scrolled .navbar-toggler-icon,
-.navbar-scrolled .navbar-brand {
-  color: #fff;
-}
+  z-index: 1;
+  font-size: 15px;
+  float: right;
+  margin-top: 30px;
+  font-family: "Audiowide", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
 
-/* Color of the navbar AFTER scroll */
-.navbar-scroll,
-.navbar-scrolled {
-  background-color: #cbbcb1;
 }
+*/
 
-.mask-custom {
+.navbar{
   backdrop-filter: blur(5px);
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.2);
 }
-
 .navbar-brand {
   font-size: 30PX;
   letter-spacing: 4px;
@@ -35,16 +29,6 @@
 
 }
 
-select {
-  width: 110px;
-  background: rgba(0, 0, 0, 0.3);
-  color: #fff;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
-}
-ul {
-  margin-left: 110px;
-}
 #intro {
   background-image: url(game.jpg);
   background-size: cover;
@@ -70,7 +54,7 @@ td{
   width: 280px;
   text-align: center;
 }
-.btn{
+.startbtn {
   border-radius: 40px;
   background-color: #1a6db1;
   color: #fff;
@@ -78,4 +62,33 @@ td{
 }
 .con{
   text-align: center;
+}
+.icon{
+  color: #fff;
+  font-size:25px;
+}
+.modal-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:25px;
+}
+select {
+  background-color: transparent;
+  border: none;
+  font-family: "Audiowide", sans-serif;
+  font-size: medium;
+  color: rgb(56, 56, 56);
+}
+
+select option {
+  background: #798c97;
+  color: rgb(88, 87, 87);
+} 
+.set{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
