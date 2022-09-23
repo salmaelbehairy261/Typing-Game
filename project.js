@@ -82,9 +82,26 @@ function dark() {
 }
 
 function sound() {
-    let Audio = document.getElementById(my_audio);
-    let audioBtn = document.getElementById(audio);
+    let Audio = document.getElementById('my_audio');
+    let audioBtn = document.getElementById('audio');
 
-    Audio.remove();
-    audioBtn.innerHTML = `<button onclick="sound" style='font-size:24px' class="btn set" id="audio"><i class="fa-solid fa-volume-slash"></i></button>`;
+
+ Audio.remove();
+    audioBtn.innerHTML = `<button onclick="sound" style='font-size:24px' class="btn set" id="audio"><i class="fa-solid fa-volume-xmark"></i></button>`;
+
+
+
+    // if (audioBtn.innerHTML = `<button onclick="sound" style='font-size:24px' class="btn set" id="audio"><i class="fa-solid fa-volume-xmark"></i></button>`) {
+    //     document.getElementById('audio').innerHTML = `<button onclick="sound()" style='font-size:24px' class="btn set" id="audio"><i class='fas fa-volume-up'></i></button>`
+    //     Audio.remove();
+
+    // }
+    // else {
+    //     document.getElementById('audio').innerHTML = `<button onclick="sound" style='font-size:24px' class="btn set" id="audio"><i class="fa-solid fa-volume-xmark"></i></button>`
+    //     playSound("Horizon.mp3") 
+    // }
+
+
+   
 }
+   
