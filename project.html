@@ -13,6 +13,10 @@
 </head>
 
 <body>
+    <audio id="my_audio" src="Horizon.mp3" loop="loop" autoplay ></audio>
+
+    
+
     <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
         <div class="container">
             <a class="navbar-brand" href="# "><span style="color: #1a6db1;">Typing</span><span
@@ -33,7 +37,7 @@
             </div>
     </nav>
     <section>
-        <div id="intro" class="bg-image vh-100">
+        <div id="intro" class="bg-image vh-100 boddy">
             <div class="mainpart ">
                 <table class="details mb-5">
                     <tr>
@@ -81,10 +85,10 @@
                     <hr>
                     <div class="form-check form-switch set">
                         <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault"> &ensp; 
-                        <label class="form-check-label" for="flexSwitchCheckDefault">Dark mode</label>
+                        <label class="form-check-label" for="flexSwitchCheckDefault" onclick="dark()">Dark mode</label> 
                     </div>
                     <hr>
-                    <button style='font-size:24px' class="btn set"><i class='fas fa-volume-up'></i></button>
+                    <button onclick="sound()" style='font-size:24px' class="btn set" id="audio"><i class='fas fa-volume-up'></i></button>
                 </div>
             </div>
         </div>
