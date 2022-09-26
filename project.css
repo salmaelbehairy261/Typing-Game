@@ -2,21 +2,17 @@
   backdrop-filter: blur(5px);
   background-color: rgba(255, 255, 255, 0.2);
 }
-.navbar-light .navbar-brand{
-  color: #fff;
-}
 .navbar-brand {
-  font-size: 30px;
+  font-size: 30PX;
   letter-spacing: 4px;
   margin-right: 70PX;
   font-family: "Audiowide", sans-serif;
-
 }
 .nav-item {
   margin-left: 30px;
 }
 .typing{
-  color: #1a6db1;
+  color: #06cce2;
 }
 .game{
   color: #fff;
@@ -31,60 +27,65 @@ select {
   font-size: medium;
   color: rgb(239, 237, 237);
   margin:5px;
+  font-family: "Audiowide", sans-serif;
+
 }
 select option {
-  background: #798c97;
+  background: #06cce2;
   color: rgb(88, 87, 87);
 } 
 body {
-  background-image: url(game.jpg);
-  background-repeat: no-repeat;
+  background-image: url(keyboard.webp);
   background-size: cover;
-  background-position: center center;
-  height: 100vh;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: 0;
-  overflow: hidden;
+  background-repeat: no-repeat;
 }
 .mainpart {
-  background-color: rgba(255, 102, 186, 0.638);
-  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(62, 73, 74, 0.7);
+  width: 800px;
+  position: relative;
+  top: 35%;
+  z-index: 1;
   border-radius: 10px;
   padding: 15px;
   color: #fff;
+  font-family: "Audiowide", sans-serif;
+
 }
 .details{
   height: 50px;
   width: 100%;
 }
+
 td{
   width: 280px;
+  text-align: center;
 }
 .startbtn {
   border-radius: 40px;
-  background-color: #1a6db1;
+  background-color: #06393f;
   color: #fff;
   width: 200px;
+  margin-bottom: 10px;
 }
 .startbtn:hover{
-  background-color: #1665a6ec;
+  background-color: #193538;
   color: #fff;
+}
+.con{
+  text-align: center;
 }
 .progress-bar{
   width: 100%;
-  background-color: #1a6db1;
+  background-color: #dee0e3;
   transition: all 1s ease-in-out;
 }
 .text{
-  width:250px;
+  width:270px;
 }
 .timeout{
   animation: shake 1s ease-in-out 0s 1;
+  
 }
 @keyframes shake {
   0%, 100% {transform: translateX(0);} 
@@ -93,7 +94,7 @@ td{
 }
 .pause{
   border-radius: 20px;
-  background-color: #1a6db1e0;
+  background-color: #202326e0;
   color: #fff;
   border: 0px;
   font-size: large;
@@ -102,7 +103,3 @@ td{
   background-color: #1665a6ec;
   color: #fff;
 }
-
-
-
-

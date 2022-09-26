@@ -51,7 +51,7 @@ let Timeout =()=>{
         window.localStorage.setItem('bestScore', score);
     }
     content.innerHTML = `<h1 class='error'>Time Out !<h1>
-    <h3>Your score: ${score}</h3>
+    <h3 class="sco">Your score: ${score}</h3>
     <h5>Best Score: ${bestScore}</h5>`;
     startBtn.innerHTML = `<button type="button" class="btn btn-lg startbtn" onclick="startGame()" >Start again</button>`
     selectElement.removeAttribute("disabled")

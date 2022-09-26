@@ -89,9 +89,9 @@ let Timeout=()=>{
         window.localStorage.setItem('bestScore', score);
     }
     content.innerHTML = `
-    <h1 class='timeout'>Time Out !</h1>
-    <h3>Your Score: ${score}</h3>
-    <h5>Best Score: ${bestScore}</h5>`;
+    <h1 class='timeout'>Time Out !<h1>
+    <h3 class='sco'>Your Score: ${score}</h3>
+    <h5 class='best'>Best Score: ${bestScore}</h5>`;
     Btn.innerHTML = `
     <button type="button" class="btn btn-lg startbtn" onclick="startGame()" >
         <i class="fa-solid fa-arrow-rotate-right"></i> Play again
