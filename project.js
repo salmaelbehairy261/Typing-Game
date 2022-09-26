@@ -89,7 +89,7 @@ let Timeout=()=>{
         window.localStorage.setItem('bestScore', score);
     }
     content.innerHTML = `
-    <h1 class='timeout'>Time Out !<h1>
+    <h1 class='timeout'>Time Out !</h1>
     <h3>Your Score: ${score}</h3>
     <h5>Best Score: ${bestScore}</h5>`;
     Btn.innerHTML = `
