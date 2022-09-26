@@ -49,7 +49,7 @@ let selectLevel = () => {
 
 let reset = () =>{
     bar.style.width='100%';
-    bar.style.backgroundColor="#1a6db1";
+    bar.style.backgroundColor="#06cce2";
     score= 0;
     scoreElement.innerHTML=score;
     timeElement.innerHTML = totalTime;
@@ -88,8 +88,14 @@ let Timeout=()=>{
         bestScore=score;
         window.localStorage.setItem('bestScore', score);
     }
-    content.innerHTML = `
-    <h1 class='timeout'>Time Out !<h1>
+    if(time==0){
+        content.innerHTML = `
+        <h1 class='timeout'>Time Out !<h1>`
+    }else{
+        content.innerHTML = `
+        <h1 class='timeout'>Game Over !<h1>`
+    }
+    content.innerHTML += `
     <h3 class='sco'>Your Score: ${score}</h3>
     <h5 class='best'>Best Score: ${bestScore}</h5>`;
     Btn.innerHTML = `
