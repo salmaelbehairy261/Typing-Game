@@ -2,11 +2,15 @@
   backdrop-filter: blur(5px);
   background-color: rgba(255, 255, 255, 0.2);
 }
+.navbar-light .navbar-brand{
+  color: #fff;
+}
 .navbar-brand {
-  font-size: 30PX;
+  font-size: 30px;
   letter-spacing: 4px;
   margin-right: 70PX;
   font-family: "Audiowide", sans-serif;
+
 }
 .nav-item {
   margin-left: 30px;
@@ -34,16 +38,22 @@ select option {
 } 
 body {
   background-image: url(game.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
 }
 .mainpart {
-  margin: 0 auto;
   background-color: rgba(255, 102, 186, 0.638);
-  width: 800px;
-  position: relative;
-  top: 30%;
-  z-index: 1;
+  width: 100%;
   border-radius: 10px;
   padding: 15px;
   color: #fff;
@@ -54,21 +64,16 @@ body {
 }
 td{
   width: 280px;
-  text-align: center;
 }
 .startbtn {
   border-radius: 40px;
   background-color: #1a6db1;
   color: #fff;
   width: 200px;
-  margin-bottom: 20px;
 }
 .startbtn:hover{
   background-color: #1665a6ec;
   color: #fff;
-}
-.con{
-  text-align: center;
 }
 .progress-bar{
   width: 100%;
