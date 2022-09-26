@@ -2,10 +2,13 @@
   backdrop-filter: blur(5px);
   background-color: rgba(255, 255, 255, 0.2);
 }
+.navbar-light .navbar-brand{
+  color: #fff;
+}
 .navbar-brand {
-  font-size: 30PX;
+  font-size: 30px;
   letter-spacing: 4px;
-  margin-right: 70PX;
+  margin-right: 70px;
   font-family: "Audiowide", sans-serif;
 }
 .nav-item {
@@ -27,8 +30,6 @@ select {
   font-size: medium;
   color: rgb(239, 237, 237);
   margin:5px;
-  font-family: "Audiowide", sans-serif;
-
 }
 select option {
   background: #06cce2;
@@ -38,19 +39,24 @@ body {
   background-image: url(keyboard.webp);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+  font-family: "Audiowide", sans-serif;
 }
 .mainpart {
-  margin: 0 auto;
-  background-color: rgba(62, 73, 74, 0.7);
-  width: 800px;
-  position: relative;
-  top: 35%;
-  z-index: 1;
+  background-color: rgba(78, 96, 98, 0.792);
+  width: 100%;
   border-radius: 10px;
   padding: 15px;
   color: #fff;
-  font-family: "Audiowide", sans-serif;
-
 }
 .details{
   height: 50px;
@@ -59,25 +65,20 @@ body {
 
 td{
   width: 280px;
-  text-align: center;
 }
 .startbtn {
   border-radius: 40px;
-  background-color: #06393f;
-  color: #fff;
+  background-color: #06cce2;
+  color: #193538;
   width: 200px;
-  margin-bottom: 10px;
 }
 .startbtn:hover{
   background-color: #193538;
   color: #fff;
 }
-.con{
-  text-align: center;
-}
 .progress-bar{
   width: 100%;
-  background-color: #dee0e3;
+  background-color: #06cce2;
   transition: all 1s ease-in-out;
 }
 .text{
@@ -94,12 +95,12 @@ td{
 }
 .pause{
   border-radius: 20px;
-  background-color: #202326e0;
-  color: #fff;
+  background-color: #06cce2;
+  color: #193538;
   border: 0px;
   font-size: large;
 }
 .pause:hover{
-  background-color: #1665a6ec;
+  background-color:#193538;
   color: #fff;
 }
