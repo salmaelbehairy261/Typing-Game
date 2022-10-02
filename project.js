@@ -33,9 +33,7 @@ let displayDetails=()=>{
         totalTime=20;
     }
     level = window.localStorage.getItem('level');
-    if(level==null){
-        level="Easy";
-    }
+    console.log(level);
     timeElement.innerHTML = totalTime;
     levelElement.innerHTML = level;
 }
