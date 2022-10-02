@@ -29,11 +29,13 @@ let arr = ['Week', 'Congratulations', 'Bee', 'Location', 'Shopping', 'Collage','
 
 let displayDetails=()=>{
     totalTime = window.localStorage.getItem('time');
-    if (totalTime==null){
+    if(!totalTime){
         totalTime=20;
     }
     level = window.localStorage.getItem('level');
-    console.log(level);
+    if (!level){
+        level="Easy";
+    }
     timeElement.innerHTML = totalTime;
     levelElement.innerHTML = level;
 }
