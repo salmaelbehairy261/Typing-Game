@@ -12,6 +12,9 @@ let totalTime,level,selectValue,time,prog,word,text,pause,ran,Timer;
 let score=0;
 let isPaused=false;
 let bestScore=window.localStorage.getItem('bestScore');
+if(!bestScore){
+    bestScore=0;
+}
 let selectElement=document.getElementById('choose');
 let levelElement = document.getElementById("level");
 let timeElement = document.getElementById("sec");
@@ -26,7 +29,13 @@ let arr = ['Week', 'Congratulations', 'Bee', 'Location', 'Shopping', 'Collage','
 
 let displayDetails=()=>{
     totalTime = window.localStorage.getItem('time');
+    if (!totalTime){
+        totalTime=20;
+    }
     level = window.localStorage.getItem('level');
+    if(!level){
+        level="Easy";
+    }
     timeElement.innerHTML = totalTime;
     levelElement.innerHTML = level;
 }
