@@ -49,6 +49,7 @@ body {
   text-align: center;
   margin: 0;
   overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .mainpart {
   background-color: rgba(78, 96, 98, 0.792);
